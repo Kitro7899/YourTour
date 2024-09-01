@@ -1,0 +1,973 @@
+
+body{
+    background: #000000a4;
+}
+.main{
+    position: relative;
+    margin: 0 auto;
+    width: 1920px;
+    height: 9101px;
+    background: #ffffff;
+
+    
+    
+}
+.Frame-79{
+    /* Frame 79 */
+    background-color: #f5f4f4;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 0px;
+    gap: 200px;
+
+    position: absolute;
+    width: 1920px;
+    height: 9100px;
+    left: 0px;
+    top: 0px;
+
+
+}
+.Frame-80 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 1920px;
+    height: 892px;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), 
+                linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                url('img/7755f64b39808bc841957a9607d58659.png');
+    
+    background-position: center; 
+    background-size: cover; 
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Frame-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 214px;
+
+    width: 1920px;
+    height: 88px;
+
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Frame-64{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 214px;
+
+    width: 1168px;
+    height: 30.24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.YourTour{
+   /* YourTour */
+    background: url(img/YourTour.png);
+    margin: 0 auto;
+    width: 181.84px;
+    height: 32px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ 
+}
+.Frame-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+
+    margin: 0 auto;
+    width: 468px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.p-normal{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.p-small{
+    
+
+   
+
+    /* Найти тур */
+
+    
+
+    /* p-small */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 0px;
+    
+    /* or 24px */
+    letter-spacing: -0.01em;
+
+    /* Black */
+    color: #1B1F2B;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    
+
+}
+
+.Frame-63{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+
+    width: 1920px;
+    height: 743px;
+
+
+    
+}
+/* Идеальные путешествия существуют */
+.H1{
+    width: 768px;
+    height: 315px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 109%;
+
+    /* or 105px */
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    /* White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text-1{
+    width: 562px;
+    height: 56px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-align: center;
+
+}
+
+.Frame-56{
+    /* Frame 56 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 20px;
+    gap: 10px;
+
+    width: 80px;
+    height: 34px;
+
+    /* White */
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.Frame-76{/* Frame 76 */
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+    
+    width: 1170px;
+    height: 1334px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    margin: 0 auto;
+}
+.Frame-70{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 35px;
+
+    width: 700px;
+    height: 142px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+.H2{/* Выбери свой тур */
+
+    width: 473px;
+    height: 73px;
+    
+    /* H2 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 124%;
+    /* or 73px */
+    text-align: center;
+    
+    /* Black */
+    color: #1B1F2B;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Frame-24{
+        /* Frame 24 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+
+    width: 137px;
+    height: 34px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.p-big{
+    /* Популярные */
+
+    width: 137px;
+    height: 5px;
+
+    /* p-big */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 122%;
+    /* identical to box height, or 28px */
+
+    
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.popular{
+    /* Популярные */
+
+    width: 137px;
+    height: 5px;
+
+    /* p-big */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 122%;
+    /* identical to box height, or 28px */
+
+    /* Orange 200 */
+    color: #EFA501;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.popular-line{
+    /* Line 2 */
+
+    width: 137px;
+    height: 0px;
+
+    /* Orange 200 */
+    border: 2px solid #EFA501;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.Frame-5{
+    /* Frame 5 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 823px;
+    height: 60px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+
+}
+.Frame-28{
+    /* Frame 28 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1170px;
+    height: 1092px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+}
+.Frame-26{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1170px;
+    height: 531px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Frame-27{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1170px;
+    height: 531px;
+
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.card-tour{
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 531px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.gradient-bg{
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-radius: inherit;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+
+
+
+
+
+
+
+
+/* Путешествие в горы */
+.card-text{
+    width: 270px;
+    height: 86px;
+}
+.cards-price{
+    /* от 80 000 руб */
+
+    width: 270px;
+    height: 24px;
+    /* White */
+    color: #FFFFFF;
+    line-height: 142%;
+
+    
+}
+.H3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    height: 30px;
+    /* or 43px */
+
+    /* White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.Frame-60{/* Frame 60 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+    }
+
+.text-container{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    margin: 0 auto;
+    width: 270px;
+    height: 126px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.text-bt{
+    /* text bt */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    
+    margin: 0 auto;
+    width: 159px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.payments{
+    /* Payments */
+    margin-left: -55px;
+    width: 120px;
+    height: 28px;
+    
+
+    /* identical to box height, or 28px */
+
+    /* White */
+    color: #FFFFFF;
+    
+}
+
+.Frame-75{
+    margin: 0 auto 135px;
+    /* Frame 75 */
+    margin: 0 auto;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+
+    width: 1170px;
+    height: 1245px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    
+}
+.Frame-53{
+    /* Frame 53 */
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    width: 458px;
+    height: 159px;
+
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+/* Идейные соображения высшего порядка,а также рамки и место обучения кадров */
+.text-CYT{
+    width: 418px;
+    height: 56px;
+
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+    text-align: center;
+
+    /* Gray 300 */
+    color: #A6A6A6;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.CreateYourTour{
+    /* Собери свой тур */
+
+    width: 458px;
+    height: 13px;
+
+    /* H2 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 124%;
+    /* or 73px */
+    text-align: center;
+
+    /* Black */
+    color: #1B1F2B;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.Frame-42{
+    /* Frame 42 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 70px;
+    gap: 33px;
+
+    width: 1028px;
+    height: 986px;
+
+    /* White */
+    background: #ffffff;
+    border-radius: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.comment{
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 1030px;
+    height: 225px;
+
+   
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.sign{
+    /* sign */
+    margin-top: -5px;
+    width: 1030px;
+    height: 28px;
+
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+
+    /* Black */
+    color: #1B1F2B;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.Frame-textarea{
+    /* Frame 40 */
+    margin-top: -27px;
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    resize: none;
+    width: 1030px;
+    height: 152px;
+    
+
+    /* Beige 100 */
+    background: #F9F7F4;
+    /* Beige 200 */
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.input{
+    /* Frame 40 */
+    margin-top: -15px;
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 500px;
+    height: 68px;
+
+    /* Beige 100 */
+    background: #F9F7F4;
+    /* Beige 200 */
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.form{
+    /* form */
+    
+    margin-top: 35px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+
+    width: 500px;
+    height: 104px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+.Frame-43{
+    /* Frame 43 */
+    margin-top: -30px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1030px;
+    height: 115px;
+    
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.Frame-46{
+    /* Frame 46 */
+    margin-top: -90px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1030px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.Frame-44{
+    /* Frame 44 */
+    margin-top: -20px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1030px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.Frame-45{
+    /* Frame 45 */
+    margin-top: -10px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1030px;
+    height: 64px;
+    
+
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.Frame-47{/* Frame 47 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 31px;
+    
+    width: 166px;
+    height: 28px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+
+.rb-text{
+    /* Да-нет */
+
+    width: 26px;
+    height: 28px;
+
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+
+    /* Black */
+    color: #1B1F2B;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
