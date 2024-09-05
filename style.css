@@ -25,7 +25,7 @@ body{
 
     position: absolute;
     width: 1920px;
-    height: 9100px;
+    height: 9620px;
     left: 0px;
     top: 0px;
 
@@ -90,7 +90,7 @@ body{
 }
 .YourTour{
    /* YourTour */
-    background: url(img/YourTour.png);
+    background: url(img/YourTour.svg);
     margin: 0 auto;
     width: 181.84px;
     height: 32px;
@@ -698,6 +698,15 @@ body{
     flex-grow: 0;
 
 }
+
+
+
+
+
+
+
+
+
 .Frame-42{
     /* Frame 42 */
 
@@ -709,7 +718,7 @@ body{
     gap: 33px;
 
     width: 1028px;
-    height: 986px;
+    height: 800px;
 
     /* White */
     background: #ffffff;
@@ -846,7 +855,7 @@ body{
 }
 .Frame-43{
     /* Frame 43 */
-    margin-top: -30px;
+    margin-top: -50px;
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -867,7 +876,7 @@ body{
 }
 .Frame-46{
     /* Frame 46 */
-    margin-top: -90px;
+    margin-top: -20px;
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -928,6 +937,113 @@ body{
     flex-grow: 0;
 
 }
+.form-ask{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1030px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+}
+
+
+/*-----------------------------!!!!!!!!!---------------------------*/
+.Frame-49{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 11px;
+
+width: 70px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Frame-48{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 11px;
+
+width: 72px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.radio-svg {
+    width: 24px;
+    height: 24px;
+    background-image: url('img/rb.svg'); /* Путь к вашему SVG */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + .radio-svg {
+    background-image: url('img/rb-on.svg'); /* Путь к SVG для активной кнопки */
+}
+
+.check-box-text{
+    
+
+    width: 26px;
+    height: 28px;
+    margin-left: -10px;
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+
+    /* Black */
+    color: #1B1F2B;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+
 .Frame-47{/* Frame 47 */
 
     /* Auto layout */
@@ -971,3 +1087,787 @@ body{
     flex-grow: 0;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+.Frame-52{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 19px;
+
+width: 554px;
+height: 26px;
+margin-top: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+.fat{
+    color: #1B1F2B;
+    width: 509px;
+    height: 24px;
+
+    /* p-small */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 142%;
+    /* or 24px */
+    letter-spacing: -0.01em;
+
+    
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.text-f52{
+/* Нажимая кнопку, я принимаю условия Лицензионного договора */
+
+width: 509px;
+height: 24px;
+
+/* p-small */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 142%;
+/* or 24px */
+letter-spacing: -0.01em;
+
+/* Gray 300 */
+color: #A6A6A6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+/* Скрываем стандартный чекбокс */
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 24px;  
+    height: 24px;
+    z-index: 2;   
+    cursor: pointer;
+}
+
+/* Статичное положение (не выбранный чекбокс) */
+.checkBox {
+    width: 24px;
+    height: 24px;
+    background-image: url('img/checkBox.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Активное положение (выбранный чекбокс) */
+input[type="checkbox"]:checked + .checkBox {
+    background-image: url('img/checkBox-on.svg'); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Frame-50{
+    /* Frame 50 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 500px;
+    height: 58px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+
+}
+
+.green-b{
+    /* big button */
+    border: none; 
+    outline: none;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    width: 235px;
+    height: 58px;
+
+    /* Green 400 */
+    background: #286562;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+.green-b-text{
+    /* Найти тур */
+
+    width: 94px;
+    height: 28px;
+
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+
+    /* White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.light-green-b{
+    /* big button */
+    border: none; 
+    outline: none;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    width: 235px;
+    height: 58px;
+
+    /* Green 100 */
+    background: #E0F0E5;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+.light-green-b-text{
+    /* Найти тур */
+    
+    width: 90px;
+    height: 28px;
+
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+
+    /* Green 400 */
+    color: #286562;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Footer{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 214px;
+
+    width: 1920px;
+    height: 88px;
+
+    /* Beige 200 */
+    background: #F4F0E9;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+}
+
+.Frame-64{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 214px;
+
+    width: 1168px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Footer-text{
+    /* Наши социальные сети */
+
+    margin: 0 auto;
+    width: 222px;
+    height: 28px;
+
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+
+    /* Gray 300 */
+    color: #A6A6A6;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Frame-22{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 25px;
+
+margin: 0 auto;
+width: 419px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Frame-116{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 126px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Frame-117{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 120px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Frame-118{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 123px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+.icon-text-footer{
+
+width: 90px;
+height: 28px;
+
+/* p-normal */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 142%;
+/* or 28px */
+
+/* Black */
+color: #1B1F2B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.inst{
+
+width: 26px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.fb{
+
+width: 26px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.vk{
+
+width: 26px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Frame-74{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+width: 1170px;
+height: 1005px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+}
+
+.Frame-77{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+width: 1920px;
+height: 1222px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* TMP */ border: 2px solid black;
+}
+
+.Frame-78{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+width: 1170px;
+height: 2060px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+/* TMP */ border: 2px solid black;
+}
+
+.Frame-66{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 771px;
+height: 370px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+/* TMP */ border: 2px solid black;
+}
+
+.Frame-74{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+width: 1170px;
+height: 1005px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.Frame-71{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 529px;
+height: 232px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.review{
+/* Отзывы наших путешественников */
+
+width: 529px;
+height: 80px;
+
+/* H2 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 59px;
+line-height: 124%;
+/* or 73px */
+text-align: center;
+
+/* Black */
+color: #1B1F2B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.review-text{
+/* Идейные соображения высшего порядка, а также рамки и место обучения кадров */
+
+width: 418px;
+height: 100px;
+
+/* p-normal */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 142%;
+/* or 28px */
+text-align: center;
+
+/* Gray 300 */
+color: #A6A6A6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Frame-65{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 1170px;
+height: 673px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.card-review{
+
+/* card review */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 40px;
+
+width: 490px;
+height: 590px;
+
+/* Beige 200 */
+background: #F4F0E9;
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+}
+.review-comment{
+/* Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Повседневная практика показывает, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития. */
+
+margin: 0 auto;
+width: 490px;
+height: 252px;
+
+/* p-big */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 122%;
+/* or 28px */
+
+/* Black */
+color: #1B1F2B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.Frame-39{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px 0px 0px;
+
+width: 490px;
+height: 145px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Frame-37 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 8px;
+    width: 415px;
+    height: 75px;
+   
+}
+
+.user {
+    width: 415px;
+    height: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 122%;
+    color: #1B1F2B;
+
+    /* Добавляем отступ сверху */
+    margin-top: -0px; /* Поднимаем или опускаем текст */
+}
+
+.info-user {
+    width: 415px;
+    height: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 142%;
+    letter-spacing: -0.01em;
+    color: #A6A6A6;
+
+    /* Отступы сверху */
+    margin-top: 0px; /* Опустить текст */
+}
+.photo-pavel{
+/* image 43 */
+
+width: 75px;
+height: 75px;
+
+background: url(img/pavel.png);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.photo-maria{
+    /* image 43 */
+    
+    width: 75px;
+    height: 75px;
+    
+    background: url(img/Maria.png);
+    border-radius: 100px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    }
