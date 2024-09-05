@@ -1573,7 +1573,7 @@ padding: 0px;
 gap: 100px;
 
 width: 1920px;
-height: 1222px;
+height: 1300px;
 
 
 /* Inside auto layout */
@@ -1581,7 +1581,7 @@ flex: none;
 order: 4;
 flex-grow: 0;
 
-/* TMP */ border: 2px solid black;
+
 }
 
 .Frame-78{
@@ -1605,6 +1605,568 @@ flex-grow: 0;
 /* TMP */ border: 2px solid black;
 }
 
+.Frame-72{
+    /* Frame 71 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    width: 529px;
+    height: 232px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.text-f72-h2{
+    /* Фотографии путешествий */
+
+    width: 723px;
+    height: 73px;
+
+    /* H2 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 124%;
+    /* or 73px */
+    text-align: center;
+
+    /* Black */
+    color: #1B1F2B;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.text-f72-p-normal{
+    /* Идейные соображения высшего порядка, а также рамки и место обучения кадров */
+
+    width: 418px;
+    height: 56px;
+    margin-top: -50px;
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+    text-align: center;
+
+    /* Gray 300 */
+    color: #A6A6A6;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.Frame-23{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 30px;
+    gap: 30px;
+    
+
+    width: 1920px;
+    height: 963px;
+
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Frame-13{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+
+padding: 0px;
+gap: 30px;
+
+width: 1860px;
+height: 301px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+.plain{
+
+width: 444px;
+height: 301px;
+
+background: url(img/photos/plain.png);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.tent{
+
+width: 441.5px;
+height: 301px;
+
+background: url(img/photos/tent.png);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.rock{
+
+    width: 441.5px;
+    height: 301px;
+    
+    background: url(img/photos/rock.png);
+    border-radius: 50px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.road{
+
+    width: 441.5px;
+    height: 301px;
+    
+    background: url(img/photos/road.png);
+    border-radius: 50px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.Frame-14{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    
+    width: 1860px;
+    height: 301px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.people{
+    /* image 5 */
+
+    width: 349.16px;
+    height: 301px;
+
+    background: url(img/photos/people.png);
+    border-radius: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+/* image 8 */
+.map{
+width: 347.32px;
+height: 301px;
+
+background: url(img/photos/map.png);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.bridge{
+    width: 347.32px;
+    height: 301px;
+    
+    background: url(img/photos/bridge.png);
+    border-radius: 50px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.carTent{
+    width: 347.32px;
+    height: 301px;
+    
+    background: url(img/photos/carTent.png);
+    border-radius: 50px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.street{
+    width: 347.32px;
+    height: 301px;
+    
+    background: url(img/photos/street.png);
+    border-radius: 50px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.Frame-15{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    
+    width: 1860px;
+    height: 301px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.houses{
+
+width: 442.5px;
+height: 300px;
+
+background: url(img/photos/houses.png);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.lake{
+
+    width: 442.5px;
+    height: 300px;
+    
+    background: url(img/photos/lake.png);
+    border-radius: 50px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.street-2{
+
+    width: 442.5px;
+    height: 300px;
+    
+    background: url(img/photos/street-2.png);
+    border-radius: 50px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.SUP{
+
+    width: 442.5px;
+    height: 300px;
+    
+    background: url(img/photos/SUP-board.png);
+    border-radius: 50px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
+.Frame-73{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 615px;
+height: 159px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Frame-67{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+width: 1170px;
+height: 1801px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.text-f73-h2{
+/* Истории путешествий */
+
+width: 615px;
+height: 73px;
+
+/* H2 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 59px;
+line-height: 124%;
+/* or 73px */
+text-align: center;
+
+/* Black */
+color: #1B1F2B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.text-f73-p-normal{
+/* Идейные соображения высшего порядка, а также рамки и место обучения кадров */
+
+width: 418px;
+height: 56px;
+margin-top: -50px;
+/* p-normal */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 142%;
+/* or 28px */
+text-align: center;
+
+/* Gray 300 */
+color: #A6A6A6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.icon{
+/* image 17 */
+
+width: 370px;
+height: 370px;
+
+background: url(img/photos/icon.png);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.text-f58-h3{
+    /* Пора в путешествие вместе с нами! */
+
+    width: 371px;
+    height: 86px;
+
+    /* H3 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 122%;
+    /* or 43px */
+
+    /* Black */
+    color: #1B1F2B;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.text-f58-p-normal{
+  /* Напиши на почту и узнай подробности на yourtour@gmail.com */
+
+    width: 364px;
+    height: 56px;
+
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+
+    /* Gray 300 */
+    color: #A6A6A6;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+}
+
+
+
+.dark-text{
+    /* Напиши на почту и узнай подробности на yourtour@gmail.com */
+  
+      width: 364px;
+      height: 56px;
+  
+      /* p-normal */
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 142%;
+      /* or 28px */
+  
+      /* Gray 300 */
+      color: #A6A6A6;
+  
+  
+      /* Inside auto layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 .Frame-66{
 
 /* Auto layout */
@@ -1622,7 +2184,7 @@ height: 370px;
 flex: none;
 order: 6;
 flex-grow: 0;
-/* TMP */ border: 2px solid black;
+
 }
 
 .Frame-74{
