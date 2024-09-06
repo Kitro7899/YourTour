@@ -1584,26 +1584,7 @@ flex-grow: 0;
 
 }
 
-.Frame-78{
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 100px;
-
-width: 1170px;
-height: 2060px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 5;
-flex-grow: 0;
-/* TMP */ border: 2px solid black;
-}
 
 .Frame-72{
     /* Frame 71 */
@@ -1733,7 +1714,7 @@ flex-grow: 0;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-
+margin-left: 30px;
 padding: 0px;
 gap: 30px;
 
@@ -1820,7 +1801,7 @@ flex-grow: 0;
     align-items: flex-start;
     padding: 0px;
     gap: 30px;
-    
+    margin-left: 30px;
     width: 1860px;
     height: 301px;
     
@@ -1907,7 +1888,7 @@ flex-grow: 0;
     align-items: flex-start;
     padding: 0px;
     gap: 30px;
-    
+    margin-left: 30px;
     width: 1860px;
     height: 301px;
     
@@ -1979,7 +1960,48 @@ flex-grow: 0;
 
 
 
+.Frame-78{
 
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+width: 1170px;
+height: 2060px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+}
+.Frame-67{
+    
+    /* Frame 67 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+
+    width: 1170px;
+    height: 1801px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
 .Frame-73{
 
 /* Auto layout */
@@ -1999,24 +2021,27 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.Frame-67{
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 50px;
-
-width: 1170px;
-height: 1801px;
 
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .text-f73-h2{
 /* Истории путешествий */
 
@@ -2065,6 +2090,279 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
+
+
+.Frame-67{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+width: 1170px;
+height: 1801px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.f78-card{
+    /* Group 36 */
+    position: relative;
+    width: 100%; /* или задайте точную ширину */
+    height: auto; /* или задайте точную высоту */
+    overflow: hidden; /* скроет всё, что выходит за рамки */
+
+    width: 1170px;
+    height: 567px;
+
+    border-radius: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.gradient-bg2{
+    /* gradient bg */
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0)
+                0.01%, rgba(0, 0, 0, 0.2) 100%);
+}
+.Frame-69{
+    /* Frame 69 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px 60px;
+
+    position: absolute;
+    height: 88px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+}
+.f69-text-bt{
+    /* text bt */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 159px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.f69-txt{
+    /* Payments */
+
+    width: 120px;
+    height: 28px;
+    
+    /* p-big */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 122%;
+    /* identical to box height, or 28px */
+
+    /* White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.f69-bt{
+    /* arrow bt */
+
+    width: 24px;
+    height: 15px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+.Frame-21{
+    /* Frame 21 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 35px;
+
+    margin-right: 0px;
+    margin-top: 50px;
+    width: 322px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+
+}
+.f21-text{
+    /* instagram */
+
+    width: 90px;
+    height: 28px;
+
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+
+    /* White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.f68-text-H3{
+    /* Автостопом в Стамбул */
+
+    width: 554px;
+    height: 43px;
+    transform: translateY(-30px);
+    /* H3 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 122%;
+    /* identical to box height, or 43px */
+
+    /* White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.f68-text-pNormal{
+    /* Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений: вкусная еда дешевый транспорт красивый город. */
+
+    width: 554px;
+    height: 224px;
+    transform: translateY(-100px);
+    /* p-normal */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    /* or 28px */
+
+    /* White */
+    color: #FFFFFF;
+    
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.dotted-list {
+    list-style-type: none; 
+    padding-left: 20px; 
+    transform: translateY(-260px);
+}
+
+.dotted-list li::before {
+    content: "• "; 
+    color: rgb(255, 255, 255); 
+}
+
+
+.Frame-68{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 0px 0px 60px;
+    gap: 37px;
+
+    position: absolute;
+    height: 394px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .icon{
 /* image 17 */
 
